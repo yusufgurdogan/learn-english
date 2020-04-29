@@ -1,0 +1,23 @@
+<!DOCTYPE html> <html style="background-color: #000000;"> <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>learn english</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"> </head> <body style="background-color: rgb(0,0,0);">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Highlight-Clean.css') }}">
+    <div class="highlight-clean" style="background-color: rgb(0,0,0);padding: 20px;padding-bottom: 0;">
+        <div class="container">
+            <div class="text-center intro">
+                <h2 class="display-4 text-center" href="#" style="font-size: 50px;color: #21950e;">learn english</h2>
+                <form action="/check" method="POST">
+	                <p style="color: rgba(255,255,255,0.74);">{{Question}}</p>
+	                <div class="form-group">
+                        <p style="color: rgb(0,0,0);"><input type="text" autofocus="" autocomplete="off" name="answer" style="width: 282px;background-color: #000000;color: rgb(255,255,255);"></p>
+                        </div>
+                        <div class="buttons"><input type="submit" value="Check" class="btn btn-primary" style="color:rgb(0,0,0);></div>
+                </form>
+                </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> </body>
+</html>
